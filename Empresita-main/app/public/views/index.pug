@@ -1,0 +1,33 @@
+html
+  head
+    link(rel="stylesheet" href="css/bootstrap.css" type="text/css")
+    script(src="js/bootstrap.js" type="text/javascript") 
+    title="DuckPrint | Impresión 3D"
+  body
+    div()
+      nav(class="navbar navbar-expand-lg bg-body-tertiary")
+        div(class="container-fluid")
+          a(class="navbar-brand" href="#")="ICON | NAVBAR"
+          button(class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation")
+            span(class="navbar-toggler-icon")
+          div(class="collapse navbar-collapse" id="navbarSupportedContent")
+            ul(class="navbar-nav me-auto mb-2 mb-lg-0")
+              li(class="nav-item")
+                a(class="nav-link active" aria-current="page" href="/")="Inicio"
+              li(class="nav-item")
+                a(class="nav-link" href="/services")="Servicios"
+              li(class="nav-item dropdown")
+                button(class="nav-link dropdown-toggle"  role="button" data-bs-toggle="dropdown" aria-expanded="false")="Productos"
+                ul(class="dropdown-menu")
+                  li()
+                    a(class="dropdown-item" href="#")="Diseño 3D"
+                  li()
+                    a(class="dropdown-item" href="#")="Maquetación 3D"
+                  li()
+                    hr(class="dropdown-divider")
+                  li()
+                    a(class="dropdown-item" href="#")="Más..."
+              li(class="nav-item")
+                a(class="nav-link disabled")="Deshabilitado"
+
+          form()

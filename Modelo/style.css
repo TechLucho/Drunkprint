@@ -1,0 +1,63 @@
+.part1{
+    border: solid red 2px;
+}
+
+.marco{
+    border: solid green 2px;
+    background-color: white;
+    width: 1000px;
+    margin: auto;
+}
+
+.info{
+    border: dotted blue 2px;
+    background-color: rgb(245, 250, 255);
+}
+
+.img{
+    border: solid purple 2px;
+    width: fit-content;
+    margin: auto;
+}
+
+.img1{
+    width: 100px;
+    height: 100px;
+}
+
+.img2{
+    width: 100px;
+    height: 100px;
+}
+
+.img3{
+    width: 100px;
+    height: 100px;
+}
+
+.tit{
+    border: solid yellow 2px;
+    margin: auto;
+    width: fit-content;
+}
+
+.text1{
+    border: solid black 2px;
+    margin: auto;
+    width: fit-content;
+}
+
+.boton{
+    border: solid lightgreen 2px;
+}
+
+.boton2{
+    margin: auto;
+    width: fit-content;
+}
+
+.text2{
+    border: solid orange 2px;
+    width: fit-content;
+    margin: auto;
+}
